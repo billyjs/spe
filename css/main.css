@@ -377,7 +377,7 @@ nav button {
 }
 
 .contact p {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .my-gallery {
@@ -389,6 +389,10 @@ nav button {
   justify-content: space-between;
   -ms-flex-flow: wrap;
   flex-flow: wrap;
+}
+
+.my-gallery figure {
+  margin: 20px auto;
 }
 
 @media all and (max-width: 600px) {
